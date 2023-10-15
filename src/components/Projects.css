@@ -1,0 +1,66 @@
+/* Projects.css */
+.projects {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .project-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-item {
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: transform 0.2s;
+  }
+  
+  .project-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  img {
+    max-width: 500px;
+    max-height: 400px; /* Adjust the maximum height as needed */
+    object-fit: cover;
+  }
+  
+  .project-description {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .project-item:hover .project-description {
+    display: block;
+  }
+  
+  /* Style the title and description */
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  

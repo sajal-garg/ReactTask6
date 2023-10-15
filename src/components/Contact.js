@@ -1,0 +1,13 @@
+import React from 'react';
+
+const Contact = () => {
+  return (
+    <div className="section">
+      <h2>Contact Me</h2>
+      <p>Email: sajalg709@google.com</p>
+      <p>LinkedIn: Will be soon here</p>
+    </div>
+  );
+};
+
+export default Contact;
